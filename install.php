@@ -117,4 +117,3 @@ mysqli_close($connect);
 
 header('Location: index.php');
 ?>
-?>

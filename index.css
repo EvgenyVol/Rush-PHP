@@ -1,6 +1,11 @@
 #menu__toggle {
     opacity: 0;
 }
+.login{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
 .img_logo
 {
     text-align: center;
