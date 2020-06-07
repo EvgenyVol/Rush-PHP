@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<link href="index.css" rel="stylesheet">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="utf-8">
 </head>
 <body>
-<form action="create.php" method="POST">
-    Login: <input type="text" name="login" value=""/>
-    <br/>
-    Password: <input type="password" name="passwd" value=""/>
-    <br/>
-    <input type="submit" name="submit" value="OK"/>
-</form>
-</body>
-</html>
+<div class="hamburger-menu">
+	<input id="menu__toggle" type="checkbox" />
+	<label class="menu__btn" for="menu__toggle">
+		<span></span>
+	</label>  <ul class="menu__box">
+	<li><a class="menu__item" href="#">Main</a></li>
+	<li><a class="menu__item" href="#">All Cats</a></li>
+	<li><a class="menu__item" href="#">Black Cats</a></li>
+	<li><a class="menu__item" href="#">White Cats</a></li>
+	<li><a class="menu__item" href="#">Red Cats</a></li>
+	<li><a class="menu__item" href="#">Multicolor Cats</a></li>
+	<li><a class="menu__item" href="#">Basket</a></li>
+</ul>
+</div>
+<div class="center_bar">
+<div class="img_logo">
+	<img src="resourses/label.jpg" height="200">
+</div>
+<div class="catigories">
+	<p><a href=""><img src="resourses/red_cat.jpeg" height="300"></a></p>
+	<p><a href="">RED CATS</a></p>
+</div>
+<div class="catigories">
+	<p><a href=""><img src="resourses/white_cat.jpeg" height="300"></a></p>
+	<p><a href="">WHITE CATS</a></p>
+</div>
+<div class="catigories">
+	<p><a href=""><img src="resourses/black_cat.jpg" height="300"></a></p>
+	<p><a href="">BLACK CATS</a></p>
+</div>
+<div class="catigories">
+	<p><a href=""><img src="resourses/multicolor_cat.jpg" height="300"></a></p>
+	<p><a href="">MULTICOLOR CATS</a></p>
+</div></div>
+</body></html>
